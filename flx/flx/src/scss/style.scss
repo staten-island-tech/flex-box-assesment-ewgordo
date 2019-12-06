@@ -1,0 +1,33 @@
+@import "./_fonts.scss";
+@import "./_header.scss";
+
+html {
+  font-size: 62.5%;
+  color: aliceblue;
+}
+
+body {
+  background-color: #212121;
+  height: 100%;
+}
+
+.flexbox {
+  display: flex;
+  background-color:#616161
+  flex-direction: row;
+  margin: 1rem;
+  padding: 2rem;
+  height: 30rem;
+  justify-content: space-around;
+}
+
+.flexbox2 {
+  display: flex;
+  background-color:#9E9E9E
+  flex-direction: row;
+  margin: 1rem;
+  padding: 2rem;
+  height: 20rem;
+  justify-content: space-around;
+}
+
