@@ -1,0 +1,96 @@
+@import "./_fonts.scss";
+@import "./header";
+
+
+$colors: (
+  primary: rgba(255,255,255,.2),
+  accent: rgba(100,100,100,.2) 
+);
+
+body {
+  background: linear-gradient(45.34deg, #5B507A 5.66%, #9EADC8 94.35%);
+  background-position: center;
+  text-align: center;
+}
+
+img {
+  height: 12rem;
+}
+
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex {
+  display: flex;
+  border: 5px solid black;
+  padding: 5px;
+  margin: 5px;
+  flex-wrap: wrap;
+}
+
+
+.flexA {
+  flex-direction: column;
+  width: 50vh;
+  background: map-get($colors, primary);
+}
+
+.flexB {
+  display: flex;
+  flex-direction: column;
+  width: 160vh;
+}
+
+.flex1 {
+  height: fit-content;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+  background: map-get($colors, primary);
+}
+
+.flex2 {
+  height: fit-content;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  background: map-get($colors, primary);
+}
+
+.flex2B {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: auto;
+}
+
+.item1 {
+  width: 30rem;
+}
+
+.flex3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+}
+
+.img1 {
+  height: 30rem;
+  margin: 1rem;
+}
+
+a {
+  text-decoration: no;
+  background: map-get($colors, primary);
+  padding:10px;
+  color:black;
+  border-radius:4px;
+}
+
+.container2 {
+  border: 5px solid black;
+  margin: 5px;
+  padding: 1rem;
+}
