@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Cardo|Carrois+Gothic+SC|Dancing+Script&display=swap");
+html {
+  font-family: 'Cardo', serif;
+}
+
+.item {
+  font-family: 'Dancing Script', cursive;
+  color: #305F72;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-family: 'Cardo', serif;
+  color: #0E2431;
+}
+
+h3, .item1 {
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.ye {
+  color: green;
+  font-size: 2rem;
+}
+
+header {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45.34deg, #5B507A 5.66%, #9EADC8 94.35%);
+  background-position: center;
+  text-align: center;
+}
+
+img {
+  height: 12rem;
+}
+
+.container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 5px solid black;
+  padding: 5px;
+  margin: 5px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flexA {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50vh;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.flexB {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 160vh;
+}
+
+.flex1 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 2rem;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.flex2 {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 2rem;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.flex2B {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: auto;
+}
+
+.item1 {
+  width: 30rem;
+}
+
+.flex3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+.img1 {
+  height: 30rem;
+  margin: 1rem;
+}
+
+a {
+  -webkit-text-decoration: no;
+          text-decoration: no;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  color: black;
+  border-radius: 4px;
+}
+
+.container2 {
+  border: 5px solid black;
+  margin: 5px;
+  padding: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
